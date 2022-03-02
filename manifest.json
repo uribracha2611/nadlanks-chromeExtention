@@ -1,0 +1,16 @@
+{
+    "name": "whatsapp extension 1",
+    "description": "Build an Extension!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html"
+      },
+      "permissions": [
+        "storage",
+        "scripting"
+      ],
+      "host_permissions": [
+        "https://*/*"
+    ]
+  }
