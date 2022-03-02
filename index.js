@@ -1,7 +1,7 @@
 
 
 submit_buttom=document.querySelector(".submit")
-
+//add event listener
 submit_buttom.addEventListener("click",(e)=>{
     e.preventDefault();
     phone_number=document.querySelector(".phone").value
